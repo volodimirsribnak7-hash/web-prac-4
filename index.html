@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Огляд Counter-Strike 2 - Практична робота №4</title>
+    <!-- Підключення стилів для 4 практичної -->
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body id="top">
+
+    <!-- Шапка сайту з фіксованим позиціонуванням та Flexbox -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#top" class="logo">CS<span>2</span> Lab</a>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#about">Про гру</a></li>
+                    <li><a href="#gameplay">Процес і карти</a></li>
+                    <li><a href="#weapons">Зброя</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основний вміст сайту -->
+    <main>
+        <!-- Секція 1: Про гру -->
+        <section id="about" class="section">
+            <div class="container about-container">
+                <div class="badge">ХІТ СЕЗОНУ</div>
+                <h1 id="page-title">Огляд відеогри Counter-Strike 2</h1>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVeRskhk5VYi0Y0mQf01pMhppaUX3M4KVcd0IIGQN_kQ&s=10logo.jpg" alt="Логотип гри Counter-Strike 2" class="main-img">
+                
+                <p class="intro">
+                    <strong>Counter-Strike 2</strong> — це довгоочікуване оновлення легендарного тактичного шутера від компанії Valve. Гра перейшла на новий рушій Source 2, що дозволило значно покращити графіку, фізику димів та загальний відгук сервера.
+                </p>
+                
+                <p>
+                    Найбільшою зміною стали <em class="highlight">динамічні димові гранати</em>, які тепер взаємодіють з оточенням, кулями та вибухами. Також розробники оновили систему рейтингу та переробили популярні карти.
+                </p>
+
+                <p>
+                    Детальніше про останні патчі та оновлення можна дізнатися на 
+                    <a href="https://counter-strike.net" target="_blank">офіційному сайті Counter-Strike</a>.
+                </p>
+            </div>
+        </section>
+
+        <!-- Секція 2: Ігровий процес та карти -->
+        <section id="gameplay" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Ігровий процес та карти</h2>
+                
+                <div class="lists-wrapper">
+                    <div class="card">
+                        <h3>Основні режими гри:</h3>
+                        <ul>
+                            <li>Прем'єр-режим (Змагальний з піками)</li>
+                            <li>Звичайний режим</li>
+                            <li>Бой насмерть (Deathmatch)</li>
+                            <li>Напарники (2v2)</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Топ-3 найпопулярніших карт:</h3>
+                        <ol>
+                            <li>Mirage</li>
+                            <li>Inferno</li>
+                            <li>Dust II</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секція 3: Порівняння зброї -->
+        <section id="weapons" class="section">
+            <div class="container">
+                <h2 class="section-title">Порівняння популярної зброї</h2>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Назва зброї</th>
+                                <th>Сторона</th>
+                                <th>Ціна ($)</th>
+                                <th>Урон у голову (без броні)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>AK-47</td>
+                                <td>Терористи (T)</td>
+                                <td>2700</td>
+                                <td>143</td>
+                            </tr>
+                            <tr>
+                                <td>M4A1-S</td>
+                                <td>Контр-терористи (CT)</td>
+                                <td>2900</td>
+                                <td>92</td>
+                            </tr>
+                            <tr>
+                                <td>AWP</td>
+                                <td>Обидві</td>
+                                <td>4750</td>
+                                <td>459</td>
+                            </tr>
+                            <tr>
+                                <td>Desert Eagle</td>
+                                <td>Обидві</td>
+                                <td>700</td>
+                                <td>131</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секція 4: Галерея (CSS Grid) -->
+        <section id="gallery" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Галерея скріншотів</h2>
+                <div class="grid-gallery">
+                    <div class="gallery-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi5Ske7dH0xAbjsOmnH3iZnPn7WEHNs9carDDjby8PxA&s=10logo.jpg" alt="Карта Mirage у Counter-Strike 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfamyeKJZq4aF2KZrP6juRq7070gP2aCUaiyqRyvxUhA&s=10logo.jpg" alt="Карта Inferno у Counter-Strike 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlIw6KzU4IVMg3q6sSn90g3UAchnQ3ka1ypzfjFbQ3hg&s=10logo.jpg" alt="Карта Dust II у Counter-Strike 2">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Підвал сайту -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Counter-Strike 2 Fan Page. Усі права захищені.</p>
+        </div>
+    </footer>
+
+    <!-- Плаваюча кнопка повернення наверх -->
+    <a href="#top" class="back-to-top" aria-label="Повернутися наверх">
+        &#8593;
+    </a>
+
+</body>
+</html>
